@@ -1,6 +1,6 @@
 ---
 title: Test Post Four
-featured: Testbild.png
+featured: tmp.png
 layout: post
 author: Philipp
 date: 2016-07-21 17:03:00
