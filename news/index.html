@@ -39,7 +39,9 @@ permalink: /news/
     				</span>
     				<hr>
 					<a href="{{ site.prefix }}{{ post.url }}" class="image full"><img src="/img/{{ post.featured }}" alt="" align="middle"></a>
-					<hr>
+                    {% if page.featured %}
+					   <hr>
+                    {% endif %}
 					{{ post.excerpt }}
 					<a class="btn btn-primary" href="{{ site.prefix }}{{ post.url }}" >Read More <i class="fa fa-angle-right"></i></a>
 					<hr>
