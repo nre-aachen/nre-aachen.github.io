@@ -1,17 +1,40 @@
 ---
 layout: default
 ---
-<!-- Main -->
-	<div id="main">
-		<div id="content" class="container">
-			<div class="row">
-				<section class="8u -2u">
-					<a href="{{ site.prefix }}{{ page.url }}" class="image full"><img src="/assets/{{ page.featured }}" alt=""></a>
-					<header>
-						<h2>{{ page.title }}</h2>
-					</header>
-					{{ page.content }}
-				</section>
-			</div>
+
+<!-- Page Content -->
+<div class="container">
+
+	<!-- Page Heading/Breadcrumbs -->
+	<div class="row">
+	    <div class="col-lg-12">
+	        <h1 class="page-header">{{ page.title }}
+	            <small>by <a href="#">{{ page.author }}</a>
+	            </small>
+	        </h1>
+	        <ol class="breadcrumb">
+	            <li><a href="/">Home</a>
+	            </li>
+	            <li><a href="/news/">News</a>
+	            </li>
+	            <li class="active">{{ page.title }}</li>
+	        </ol>
+	    </div>
+	</div>
+<!-- Date -->
+    <span class="post-date">
+        <i class="fa fa-clock-o"></i> Posted on {{ page.date | date_to_string }}
+    </span>
+<!-- /.row -->
+
+<!-- Content Row -->
+    <div class="row">
+
+            <!-- Blog Post Content Column -->
+        <div class="col-lg-8">
+			<hr>
+				<img src="/img/{{ page.featured }}" alt="">
+			<hr>
+			{{ page.content }}
 		</div>
 	</div>
