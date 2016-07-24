@@ -1,0 +1,19 @@
+---
+title: Layout Test Post!
+featured: tmp1.png
+layout: post
+author: Alex	
+date: 2016-07-22 17:20:00
+categories: test
+permalink: /news/layout-test
+---
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper enim lacus, quis consequat magna euismod sit amet. Nullam vitae neque faucibus, commodo nisi a, aliquet dolor. Morbi consequat rutrum justo, sed molestie magna pellentesque ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam tempus vulputate sagittis. Pellentesque pretium velit vel ornare cursus. Integer vitae mollis ante. Mauris quis fermentum ex, quis hendrerit orci. Ut sed urna est. Donec pulvinar vehicula malesuada.
+
+Duis venenatis tincidunt tortor, sit amet congue turpis tempus sit amet. Proin efficitur odio velit, et finibus dui euismod vel. Etiam sagittis aliquam augue, quis dapibus est varius ac. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus nisi ex, tempus sed rutrum ac, porta ut justo. Mauris dapibus urna eu convallis interdum. Vivamus viverra magna eget mollis interdum. Nulla feugiat cursus justo et venenatis. Morbi interdum ex in arcu gravida scelerisque aliquam id lectus. Curabitur nec auctor ipsum, sagittis volutpat justo. Mauris non imperdiet neque. Cras non convallis lorem, vitae vehicula velit. Aliquam varius orci mauris, vitae vehicula massa dignissim ac. Quisque consequat tortor est, vitae lobortis urna ornare id. Aenean mi odio, blandit eu dui non, auctor dictum turpis.
+
+Nam sit amet purus at justo cursus ornare vel nec eros. Nam nec tempus urna, nec lacinia nisl. Aenean at egestas nulla. Pellentesque dapibus dui nec erat euismod eleifend. Sed aliquet luctus erat vel congue. Phasellus non metus lectus. Praesent quam sapien, ullamcorper eu tempor id, scelerisque ac mauris. Morbi cursus sit amet eros ac euismod. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla eget dui imperdiet, accumsan felis sed, sagittis mi.
+
+Morbi quis nisi massa. Morbi id tellus fringilla, aliquam ex eu, porta sapien. Nullam ac auctor nisl. Donec eu imperdiet est. In eleifend magna risus, quis luctus neque finibus ut. Donec porttitor urna nec elit pharetra, eget fringilla ipsum imperdiet. Fusce at volutpat erat. Morbi aliquet facilisis orci, eget efficitur mi semper a. Nunc vitae scelerisque diam. Vestibulum at posuere erat. Cras venenatis sapien orci, vel venenatis tellus pulvinar eu. Sed nisi justo, auctor a cursus quis, vulputate a lectus. Cras nec euismod neque, ut venenatis arcu. Vestibulum pretium odio arcu, mattis auctor risus vehicula sit amet. Fusce consequat mauris sed est tempus, eu tincidunt tellus ornare.
+
+Maecenas tincidunt est dui, pretium finibus tortor tristique id. Pellentesque facilisis luctus magna, non imperdiet urna tincidunt tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac scelerisque est. Aenean ac arcu elementum, commodo ipsum sed, tincidunt elit. Vestibulum porttitor vel ligula vitae cursus. Nullam eget posuere nunc, at sagittis turpis. Nunc ac sem lacinia, bibendum ipsum et, imperdiet mauris. Integer eget arcu lorem. Vestibulum ac massa porta, ullamcorper metus et, lacinia ex. Nulla tincidunt justo id nisl fermentum facilisis. Duis vulputate lobortis eleifend. Nullam consequat ornare quam, eget fringilla ex semper vel. Nulla gravida nisi ut augue bibendum, quis sollicitudin eros dignissim. Quisque luctus mauris felis, sed vestibulum purus viverra sed. Aenean dictum accumsan erat, vehicula sollicitudin purus posuere quis.
