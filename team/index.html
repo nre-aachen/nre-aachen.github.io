@@ -23,8 +23,8 @@ permalink: /team/
     <!-- /.row -->
 
 <!-- Team Members -->
-    {% for member in site.members %}
         <div class="row">
+            {% for member in site.members %}
              <div class="col-md-4 text-center">
                 <div class="thumbnail">
                     <a href="{{ site.prefix }}{{ member.url }}">
@@ -50,4 +50,5 @@ permalink: /team/
                     </div>
                 </div>
             </div>
-        {% endfor %}
+            {% endfor %}
+        </div>
