@@ -1,0 +1,53 @@
+---
+title: Team
+layout: default
+permalink: /team/
+---
+
+<!-- Page Content -->
+<div class="container">
+
+<!-- Page Heading/Breadcrumbs -->
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Our Team
+                <!--<small>Subheading</small>-->
+            </h1>
+            <ol class="breadcrumb">
+                <li><a href="/">Home</a>
+                </li>
+                <li class="active">Team</li>
+            </ol>
+        </div>
+    </div>
+    <!-- /.row -->
+
+<!-- Team Members -->
+    {% for member in site.members %}
+        <div class="row">
+             <div class="col-md-4 text-center">
+                <div class="thumbnail">
+                    <a href="{{ site.prefix }}{{ member.url }}">
+                        <img class="img-responsive img-hover" src="http://placehold.it/750x450" alt="">
+                    </a>
+                    <div class="caption">
+                        <h4><a href="{{ site.prefix }}{{ member.url }}">{{ member.name }} {{ member.surname }}, {{ member.degree }}</a><br>
+                            <small>{{ member.position }}</small>
+                        </h4>
+                        <p>
+                            <abbr title="Office"><i class="fa fa-briefcase" aria-hidden="true"></i></abbr> {{ member.office v}}
+                            <br>
+                            <abbr title="Email"><i class="fa fa-envelope" aria-hidden="true"></i></abbr> <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+                            <br>
+                            <abbr title="Phone"><i class="fa fa-phone" aria-hidden="true"></i></abbr> {{ member.phone }} 
+                            <br>
+                            <abbr title="Fax"><i class="fa fa-fax" aria-hidden="true"></i></abbr> {{ member.fax }}
+                        </p>
+                        <ul class="list-inline">
+                            <li><a href="#"><i class="fa fa-2x fa-linkedin-square invisible"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
