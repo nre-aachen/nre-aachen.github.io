@@ -8,7 +8,9 @@ destination: ./_site
 plugins_dir:     ./_plugins
 layouts_dir:     ./_layouts
 data_source_dir: ./_data
-collections: null
+collections:
+  members:
+    output: true
 
 # Handling Reading
 safe:         false
