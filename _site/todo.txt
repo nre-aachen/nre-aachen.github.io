@@ -1,0 +1,34 @@
+
+	- set defaults in config.yml
+	- english/german
+	- imprint and disclaimer
+	- readme files / manual 
+	- colors, fonts, logos (researchgate!)… 
+	- additional useful plugins?
+	- links
+	- breadcrumbs —> _includes
+
+Home 
+	- add Photos
+	- Edit Welcome text
+
+About
+	- write content
+
+Team
+	- restructure section, facilitate content generation, reduce code redundancy 
+	- create member layout file 
+	- add former members subsection
+	- automize publication lists update
+
+News
+	- Add sidebar
+	- Layout adjustments
+	- link authors to their corresponding team page (—> set variable in data/authors.yml)
+
+Projects 
+	- restructure section, facilitate content generation, reduce code redundancy  
+	- create project layout file
+
+
+

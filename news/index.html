@@ -38,8 +38,8 @@ permalink: /news/
       					<i class="fa fa-clock-o"></i> Posted on {{ post.date | date_to_string }}
     				</span>
     				<hr>
-					<a href="{{ site.prefix }}{{ post.url }}" class="image full"><img src="/img/{{ post.featured }}" alt="" align="middle"></a>
 					{% if post.featured %}
+					<a href="{{ site.prefix }}{{ post.url }}" class="image full"><img src="/img/{{ post.featured }}" alt="" align="middle"></a>
                         <hr>
                     {% endif %}
 					{{ post.excerpt }}

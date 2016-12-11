@@ -5,7 +5,7 @@ layout: post
 author: Alex	
 date: 2016-07-22 17:20:00
 categories: test
-permalink: /news/layout-test
+permalink: /news/test-post-two
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus semper enim lacus, quis consequat magna euismod sit amet. Nullam vitae neque faucibus, commodo nisi a, aliquet dolor. Morbi consequat rutrum justo, sed molestie magna pellentesque ac. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nullam tempus vulputate sagittis. Pellentesque pretium velit vel ornare cursus. Integer vitae mollis ante. Mauris quis fermentum ex, quis hendrerit orci. Ut sed urna est. Donec pulvinar vehicula malesuada.
