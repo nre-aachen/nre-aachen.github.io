@@ -20,3 +20,29 @@ def show
   end
 end
 {% endhighlight %}
+
+Now testing some Python code:
+
+{% highlight python %}
+class Stratigraphy(Event):
+    """Sedimentary pile with defined stratigraphy
+
+    """
+
+    def __init__(self, **kwds):
+        """Sedimentary pile with defined stratigraphy
+
+        """
+        # initialise variables
+        self.properties = {}
+        self.property_lines = {} # required to reassign properties later!
+        self.layer_names = []
+        self.num_layers = 0
+        self.event_lines = []
+
+        # iterate through lines and determine attributes
+        if kwds.has_key("lines"):
+            self.parse_event_lines(kwds['lines'])
+            self.event_type = self.event_lines[0].split("=")[1].strip()
+
+{% endhighlight %}
