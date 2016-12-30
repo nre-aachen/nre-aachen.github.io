@@ -3,6 +3,8 @@ title: Showing Python snippets in code
 layout: post_text
 author: Florian	
 categories: test
+description: I assume we will all need to include code in some of our webpages sooner or later, here a collection of
+ examples.
 ---
 
 I assume we will all need to include code in some of our webpages sooner or later, here a collection of
