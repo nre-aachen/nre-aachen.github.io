@@ -73,7 +73,7 @@ permalink: /about/
 </div>
 <div class="container">
     <h3>Journal articles 2013 ({{ site.data.test.journal.size }}):</h3>
-    {{ site.data.test.journal | where:"year","2013" }}
+   <!-- {{ site.data.test.journal | where:"year","2013" }} -->
 {% for paper in site.data.test.journal | where:"year","2013" %}
   <li>
   {{paper.author}}: {{paper.title}}
